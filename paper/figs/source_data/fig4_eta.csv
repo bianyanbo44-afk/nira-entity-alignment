@@ -1,0 +1,33 @@
+noise,model,split,n_seeds,true_eta,eta_single_view_mpe,eta_nira_wo_namehard,eta_nira
+"Random, $\eta=0.2$",RULE,zh_en,3,0.19982,0.19123,0.22706,0.22742
+"Random, $\eta=0.2$",RULE,ja_en,3,0.19982,0.19065,0.20452,0.20594
+"Random, $\eta=0.2$",RULE,fr_en,3,0.19982,0.19123,0.20057,0.20172
+"Random, $\eta=0.2$",RULE,fbdb,3,0.19975,0.18855,0.19917,0.20031
+"Random, $\eta=0.2$",PMF,zh_en,3,0.19982,0.18879,0.23105,0.23069
+"Random, $\eta=0.2$",PMF,ja_en,3,0.19982,0.19115,0.20268,0.20466
+"Random, $\eta=0.2$",PMF,fr_en,3,0.19982,0.18936,0.20116,0.20297
+"Random, $\eta=0.2$",PMF,fbdb,3,0.19975,0.20671,0.20108,0.20238
+"Random, $\eta=0.5$",RULE,zh_en,3,0.49965,0.48401,0.52065,0.52434
+"Random, $\eta=0.5$",RULE,ja_en,3,0.49965,0.47867,0.50526,0.50885
+"Random, $\eta=0.5$",RULE,fr_en,3,0.49965,0.48200,0.50190,0.50487
+"Random, $\eta=0.5$",RULE,fbdb,3,0.49975,0.49287,0.50071,0.50384
+"Random, $\eta=0.5$",PMF,zh_en,3,0.49965,0.48395,0.52821,0.53199
+"Random, $\eta=0.5$",PMF,ja_en,3,0.49965,0.48359,0.50578,0.50978
+"Random, $\eta=0.5$",PMF,fr_en,3,0.49965,0.48950,0.50284,0.50659
+"Random, $\eta=0.5$",PMF,fbdb,3,0.49975,0.51731,0.50105,0.50436
+Look-alike,RULE,zh_en,3,0.50000,0.00268,0.58913,0.59232
+Look-alike,RULE,ja_en,3,0.50000,0.00130,0.55948,0.56518
+Look-alike,RULE,fr_en,3,0.50000,0.00155,0.54514,0.54914
+Look-alike,RULE,fbdb,3,0.50000,0.00697,0.51352,0.51763
+Look-alike,PMF,zh_en,3,0.50000,0.00170,0.59667,0.60126
+Look-alike,PMF,ja_en,3,0.50000,0.00337,0.56670,0.57230
+Look-alike,PMF,fr_en,3,0.50000,0.00356,0.55182,0.55655
+Look-alike,PMF,fbdb,3,0.50000,0.03125,0.51216,0.51718
+LLM annotation,RULE,zh_en,3,0.27838,0.15926,0.00154,0.26906
+LLM annotation,RULE,ja_en,3,0.18052,0.09836,0.00100,0.17999
+LLM annotation,RULE,fr_en,3,0.08280,0.02949,0.00100,0.05600
+LLM annotation,RULE,fbdb,3,0.06215,0.01872,0.00100,0.03314
+LLM annotation,PMF,zh_en,3,0.27838,0.06082,0.00136,0.24856
+LLM annotation,PMF,ja_en,3,0.18052,0.04308,0.00100,0.17422
+LLM annotation,PMF,fr_en,3,0.08280,0.01465,0.00100,0.06319
+LLM annotation,PMF,fbdb,3,0.06215,0.03502,0.00102,0.03087

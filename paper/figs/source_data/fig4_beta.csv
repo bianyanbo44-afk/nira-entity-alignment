@@ -1,0 +1,9 @@
+noise,model,beta_random,beta_structure_hard,beta_name_hard
+"Random, $\eta=0.2$",RULE,0.9534,0.0367,0.0100
+"Random, $\eta=0.2$",PMF,0.9483,0.0417,0.0100
+"Random, $\eta=0.5$",RULE,0.9739,0.0161,0.0100
+"Random, $\eta=0.5$",PMF,0.9696,0.0205,0.0100
+Look-alike,RULE,0.0099,0.9802,0.0099
+Look-alike,PMF,0.0099,0.9802,0.0099
+LLM annotation,RULE,0.0101,0.0099,0.9800
+LLM annotation,PMF,0.0117,0.0099,0.9784

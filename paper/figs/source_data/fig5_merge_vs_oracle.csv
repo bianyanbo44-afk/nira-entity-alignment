@@ -1,0 +1,19 @@
+noise,model,split,oracle_merge,oracle_wrong,nira_merge,nira_wrong
+"Random, $\eta=0.2$",RULE,zh_en,0.37560,0.00513,0.40817,0.00816
+"Random, $\eta=0.2$",RULE,ja_en,0.35011,0.00329,0.35709,0.00389
+"Random, $\eta=0.2$",RULE,fr_en,0.39569,0.00618,0.40039,0.00665
+"Random, $\eta=0.2$",PMF,zh_en,0.35175,0.00489,0.38416,0.00737
+"Random, $\eta=0.2$",PMF,ja_en,0.38101,0.00800,0.39782,0.00974
+"Random, $\eta=0.2$",PMF,fr_en,0.50066,0.02141,0.50643,0.02249
+"Random, $\eta=0.5$",RULE,zh_en,0.11729,0.00014,0.12492,0.00016
+"Random, $\eta=0.5$",RULE,ja_en,0.08808,0.00004,0.09540,0.00007
+"Random, $\eta=0.5$",RULE,fr_en,0.11492,0.00022,0.12038,0.00025
+"Random, $\eta=0.5$",PMF,zh_en,0.21319,0.00095,0.23028,0.00143
+"Random, $\eta=0.5$",PMF,ja_en,0.21558,0.00182,0.23178,0.00225
+"Random, $\eta=0.5$",PMF,fr_en,0.26624,0.00363,0.27766,0.00400
+LLM annotation,RULE,zh_en,0.35032,0.00353,0.36056,0.00414
+LLM annotation,RULE,ja_en,0.41881,0.00653,0.41043,0.00581
+LLM annotation,RULE,fr_en,0.52167,0.01710,0.48208,0.01128
+LLM annotation,PMF,zh_en,0.35859,0.00491,0.31780,0.00300
+LLM annotation,PMF,ja_en,0.44168,0.01202,0.44305,0.01233
+LLM annotation,PMF,fr_en,0.60522,0.03290,0.56568,0.02562

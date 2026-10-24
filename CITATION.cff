@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this versioned data and code record when using the deposited NIRA materials."
+type: dataset
+title: "NIRA: calibration code, annotations and numerical results"
+version: 1.0.0
+date-released: 2026-10-24
+authors:
+  - family-names: Bian
+    given-names: Yanbo
+    affiliation: Beijing Jiaotong University
+  - family-names: Wang
+    given-names: Zhihai
+    affiliation: Beijing Jiaotong University
+repository-code: "https://github.com/bianyanbo44-afk/nira-entity-alignment"
+url: "https://github.com/bianyanbo44-afk/nira-entity-alignment/releases/tag/v1.0.0"
+abstract: >-
+  Calibration code, original LLM annotations and candidate lists, complete
+  numerical outputs, figure source data and protocols accompanying When
+  Modalities Disagree: Noise-Identifiable Conformal Calibration for Multi-Modal
+  Entity Alignment with Noisy Seeds.
+keywords:
+  - entity alignment
+  - conformal prediction
+  - noisy seeds
+  - multimodal learning

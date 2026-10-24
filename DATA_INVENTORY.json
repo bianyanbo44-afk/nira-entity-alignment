@@ -1,0 +1,73 @@
+{
+  "title": "NIRA calibration code, annotations and numerical results",
+  "version": "1.0.0",
+  "date": "2026-10-24",
+  "repository": "https://github.com/bianyanbo44-afk/nira-entity-alignment",
+  "versioned_record": "https://github.com/bianyanbo44-afk/nira-entity-alignment/releases/tag/v1.0.0",
+  "creators": [
+    {
+      "name": "Yanbo Bian",
+      "affiliation": "Beijing Jiaotong University"
+    },
+    {
+      "name": "Zhihai Wang",
+      "affiliation": "Beijing Jiaotong University"
+    }
+  ],
+  "records": [
+    {
+      "material": "Original annotation decisions and model candidate lists",
+      "access": "public repository",
+      "paths": [
+        "pilot/runs/ext/llm/annot_*.jsonl",
+        "pilot/runs/ext/llm/items_*.jsonl",
+        "pilot/runs/fbdb/llm/annot_*.jsonl",
+        "pilot/runs/fbdb/llm/items_*.jsonl"
+      ]
+    },
+    {
+      "material": "All corrected numerical results, uncertainty replicates and paired audit",
+      "access": "public repository",
+      "paths": [
+        "pilot/runs/label_free_v2/main",
+        "pilot/runs/label_free_v2/robust",
+        "pilot/runs/label_free_v2/hparam",
+        "pilot/runs/label_free_v2/paired_audit.json"
+      ]
+    },
+    {
+      "material": "Source data for five manuscript figures",
+      "access": "public repository",
+      "paths": [
+        "paper/figs/source_data"
+      ]
+    },
+    {
+      "material": "Calibration, table and figure programs and protocols",
+      "access": "public repository",
+      "paths": [
+        "pilot/scripts",
+        "paper/make_tables.py",
+        "paper/figs",
+        "pilot/*PROTOCOL.md"
+      ]
+    },
+    {
+      "material": "DBP15K and MMKG FB15K--DB15K benchmark packages and image features",
+      "access": "reused public source",
+      "url": "https://github.com/ninibymilk/PMF-MMEA"
+    },
+    {
+      "material": "Freebase entity name mapping",
+      "access": "reused public source",
+      "url": "https://github.com/yao8839836/kg-bert"
+    },
+    {
+      "material": "Frozen trained embedding exports",
+      "access": "not included in this deposit",
+      "note": "Required only for recalibration from embeddings; schema and training seeds are documented in README.md."
+    }
+  ],
+  "license": "No repository-wide reuse license assigned; see LICENSE_NOTICE.md",
+  "doi": null
+}
